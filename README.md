@@ -5,7 +5,7 @@
 
 **Team Name:** MicroBS  
 **Country:** Palestine 
-**School / Organization:** BZU  
+**Organization:** BZU  
 **Competition Category:** WRO Future Engineers 2026
 
 ---
