@@ -27,7 +27,10 @@ The vehicle consists of the following subsystems:
   the robot is built on an aluminum body kit, which was selected for its combination of strength, durability, and low weight. The rigid aluminum frame provides a stable platform for mounting all electronic and mechanical components while withstanding the vibrations and impacts encountered during testing and competition. In addition, the chassis offers sufficient space for efficient component placement and weight distribution, contributing to the overall stability of the vehicle.
 
 Most of the mechanical structure was assembled using the aluminum kit, reducing the need for extensive custom manufacturing. However, several parts were designed and produced using 3D printing to better meet our performance requirements. The most significant modification was the creation of larger drive gears. These gears increased the gear ratio between the motor and the wheels, allowing the system to generate higher torque. As a result, the robot achieved smoother acceleration, improved traction, and more reliable performance when navigating turns and obstacles. Testing confirmed that the larger custom gears provided better driving characteristics than the original configuration.
-- Drive mechanism
+#### Drive mechanism
+The robot uses a rear-wheel-drive mechanism powered by a single DC motor. Motion is transmitted from the motor to the rear axle through a three-gear transmission system. The two rear wheels are mechanically linked by a metal axle, ensuring that both wheels rotate together and provide consistent propulsion.
+
+To enhance the performance of the drive system, custom gears were designed and manufactured using 3D printing. The larger gears increased the transmission ratio, allowing the robot to generate greater torque at the wheels. This improvement resulted in smoother acceleration, better traction, and more stable movement while navigating the track. Multiple tests were conducted to evaluate different gear configurations, and the final design was selected for its balance between driving power, reliability, and control.
 - Steering mechanism
 - Mechanical components
 
