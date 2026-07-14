@@ -47,9 +47,9 @@ To enhance the performance of the drive system, custom gears were designed and m
 - Power distribution
 
 ### Sensor System
-- Camera
+- Color sensor
 - Distance sensors
-- Orientation sensors
+  
 
 ### Software System
 - Lane following
@@ -59,11 +59,7 @@ To enhance the performance of the drive system, custom gears were designed and m
 
 ---
 
-## Repository Structure
 
-This repository will be updated throughout the development process. Documentation, source code, images, videos, and testing reports will be added as the project progresses.
-
----
 
 ## Engineering Documentation
 
