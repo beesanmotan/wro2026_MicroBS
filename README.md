@@ -47,7 +47,7 @@ To enhance the performance of the drive system, custom gears were designed and m
 - Power distribution
 
 ### Sensor System
-- Color sensor
+- camera
 - Distance sensors
   
 
@@ -59,20 +59,6 @@ To enhance the performance of the drive system, custom gears were designed and m
 
 ---
 
-
-
-## Engineering Documentation
-
-The repository documents the complete engineering process, including:
-
-- Mechanical design
-- Sensor integration
-- Power architecture
-- Software architecture
-- Testing procedures
-- System improvements and iterations
-
----
 
 ## Development Process
 
