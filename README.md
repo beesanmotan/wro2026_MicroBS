@@ -120,7 +120,7 @@ The Logitech C270 is connected to the Raspberry Pi 5 and provides real-time imag
 #### Motor Driver (L298N Dual H-Bridge Module)
 
 #### DC-DC Buck Converter
- ![DC-DC Buck Converter](images/buckconveter.jpg)
+ ![DC-DC Buck Converter](images/buckconverter.jpg)
 
 The DC-DC Buck Converter is used in our robot's power management system. Its purpose is to reduce the battery voltage to the voltage levels required by different electronic components.
 
