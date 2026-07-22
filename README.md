@@ -117,6 +117,34 @@ The Logitech C270 is responsible for:
 
 The Logitech C270 is connected to the Raspberry Pi 5 and provides real-time images for the robot's vision system.
 
+#### Motor Driver (L298N Dual H-Bridge Module)
+
+#### DC-DC Buck Converter
+
+The DC-DC Buck Converter is used in our robot's power management system. Its purpose is to reduce the battery voltage to the voltage levels required by different electronic components.
+
+##### Why We Chose a Buck Converter
+
+- Provides a stable output voltage.
+- Efficiently converts power with minimal energy loss.
+- Protects sensitive electronic components from overvoltage.
+- Supports reliable operation of the robot during competition.
+
+###### Role in the Robot
+
+The buck converter receives power from the main battery and reduces the voltage to the required level for the robot's electronic systems. This ensures that all components receive a safe and stable power supply.
+
+###### Integration
+
+The buck converter is connected between the battery and the electronic components that require a lower operating voltage. It supplies regulated power to the control and sensing systems, improving the overall reliability of the robot.
+
+###### Benefits
+
+- Stable power delivery.
+- Improved energy efficiency.
+- Increased protection for electronic components.
+- Reliable operation throughout the competition.
+
 #### DC motor
 #### Servo motor
 #### IR Sensor
