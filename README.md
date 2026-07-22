@@ -69,12 +69,19 @@ The Raspberry Pi 5 performs the following tasks:
 
 The Raspberry Pi 5 is connected to:
 
-- Camera module
-- Distance sensors
-- Motor driver
-- Power system
+- Logitech C270 HD Webcam
+- Servo Motor
+Connected via control wires to send PWM signals that turn the front wheels left and right.
+- L298N Motor Driver
+- Power Supply
+This cable receives regulated voltage directly from the blue step-down buck converter module mounted on the side, converting raw battery voltage down to a stable 5 v needed to power the Pi without frying it.
+- Rear IR Sensor Module:
+Connected via a data pin to send  signals back to the Pi when an obstacle is detected behind the chassis.
+-Active Cooling Fan
+to keep the processor cool inside the enclosure.
 
-  #### 
+  #### Logitech C270 HD Webcam
+  
 
 As the central processing unit of the robot, the Raspberry Pi 5 enables autonomous operation and supports all decision-making processes during the competition.
 
