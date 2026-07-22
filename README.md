@@ -44,6 +44,7 @@ This section provides a detailed overview of the key hardware components used in
 | Height| ..................|
 #### 🔧 Components Overview
 #### Raspberry Pi 5
+![Raspberry Pi 5](images/ras%20pi%205.jpg)
 
 The Raspberry Pi 5 is the main controller of our robot. It is responsible for processing sensor data, running the autonomous navigation algorithms, and sending control commands to the motor driver.
 
