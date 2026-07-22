@@ -81,9 +81,40 @@ Connected via a data pin to send  signals back to the Pi when an obstacle is det
 to keep the processor cool inside the enclosure.
 
   #### Logitech C270 HD Webcam
-  
+  ![Logitech C270 HD Webcam](images/cam.jpg)
 
-As the central processing unit of the robot, the Raspberry Pi 5 enables autonomous operation and supports all decision-making processes during the competition.
+The Logitech C270 HD Webcam is the primary vision sensor used in our robot. It provides real-time visual information that allows the robot to detect objects, identify track features, and support autonomous navigation.
+
+##### Why We Chose the Logitech C270
+
+- Provides reliable image quality for computer vision applications.
+- Supports HD video resolution (1280 × 720).
+- Compatible with the Raspberry Pi 5 and OpenCV libraries.
+- Lightweight and easy to mount on the robot.
+- Affordable and widely available.
+
+##### Role in the Robot
+
+The Logitech C270 is responsible for:
+
+- Capturing live video of the competition field.
+- Detecting obstacles and track boundaries.
+- Providing visual data for image-processing algorithms.
+- Supporting navigation and decision-making during autonomous operation.
+
+##### Technical Specifications
+
+- Resolution: Up to 1280 × 720 (HD)
+- Frame Rate: Up to 30 FPS
+- Connection: USB 2.0
+- Fixed-focus lens
+- Plug-and-play compatibility with Raspberry Pi OS
+
+##### Integration
+
+The Logitech C270 is connected to the Raspberry Pi 5 and provides real-time images for the robot's vision system.
+
+#### DC motor
 
 
 
