@@ -83,7 +83,10 @@ to keep the processor cool inside the enclosure.
   #### Logitech C270 HD Webcam
   ![Logitech C270 HD Webcam](images/cam.jpg)
 
-The Logitech C270 HD Webcam is the primary vision sensor used in our robot. It provides real-time visual information that allows the robot to detect objects, identify track features, and support autonomous navigation.
+The primary vision system consists of a front-mounted USB webcam serving as the core perception sensor for track boundary detection, color identification (e.g., distinguishing obstacle markers), and dynamic steering corrections.Sensor Model: Logitech C270 HD WebcamNative Optical Resolution: 720p HD (1280 *720 pixels) at 30 FPS Field of View (FOV):60 diagonal
+Interface: Standard USB 2.0 (Bus-powered via compute board)
+Operating Voltage : 5.0 V DC (MORE OR LESS BY .05 via USB bus) 
+via USB busPeak Current Draw: 500 mA (2.50 W peak power draw)
 
 ##### Why We Chose the Logitech C270
 
@@ -115,7 +118,10 @@ The Logitech C270 is responsible for:
 The Logitech C270 is connected to the Raspberry Pi 5 and provides real-time images for the robot's vision system.
 
 #### DC motor
-
+#### Servo motor
+#### IR Sensor
+The rear infrared sensor module acts as an optical proximity detector for short-range obstacle sensing behind the chassis base. It operates on the principle of active light reflection to detect walls, track boundaries, or collision risks during reverse maneuvers.
+Module Type: Active Infrared Optical Reflection Sensor (Dual Diode Pair).Operating Voltage (3.3 V - 5.0V ).Current Draw= approx 20mA (Low-power peripheral).Detection Distance Range= approx 2cm - 30 cm (Adjustable via onboard potentiometer).Signal Output: Digital Output (DO - HIGH/LOW logic level) and Analog Output (AO).Onboard Signal Conditioning: Integrated LM393 voltage comparator IC with status LED indicators.
 
 
 
@@ -137,10 +143,34 @@ To enhance the performance of the drive system, custom gears were designed and m
 - Primary Battery Interface:Configuration: Integrated chassis battery tray fitted with high-tension spring terminal contacts.
 
 
-### Sensor System
-- camera
-- Distance sensors
-  
+### steering System
+### sensor system
+-[camera](#logitech-c270-hd-webcam)
+Placement: Positioned at the extreme front deck, mounted forward over the front axle bumper.
+
+Geometry Rationale: Mounting the camera at the front edge eliminates chassis obstruction from the field of view. The forward-angled orientation creates an optimal trapezoidal perspective on the track floor, capturing both immediate track boundary lines and oncoming obstacle pillars several meters ahead.
+
+
+-[IR Sensor](#ir-sensor)
+Rear IR Sensor Placement:
+
+Placement: Center-aligned on the rear lower chassis deck, pointing directly outward.
+
+Geometry Rationale: Eliminates blind spots directly behind the vehicle during reverse alignment maneuvers or back-up routines without interfering with the rear spur gear mechanism.
+
+Location: Center-mounted at the lower rear chassis frame.
+
+Orientation: Pointed horizontally backwards, aligned with the central longitudinal axis of the vehicle.
+
+Geometry Rationale:
+
+Eliminates rear optical blind spots during reverse parking/alignment routines.
+
+Positioned on the lower deck to detect low-profile obstacles without obstructing the rear spur gear mechanism or axle clearance.
+
+To establish a reliable trigger threshold under varying ambient light conditions:Physical Setup: Place an obstacle (e.g., track wall/pillar) at the desired trigger threshold distance = 10 cm directly behind the rear chassis.Potentiometer Tuning: Rotate the onboard blue multi-turn trimmer potentiometer clockwise/counterclockwise using a small screwdriver.Threshold Lock: Adjust until the onboard status indicator LED turns ON precisely when the object is at 10 cm and turns OFF when the object moves beyond10 cm
+
+Sensor Tradeoffs & Failure Mitigation:Short-range sensing 10 cm compared to Ultrasonic or LiDAR sensors.  
 
 ### Software System
 - Lane following
@@ -157,9 +187,9 @@ To enhance the performance of the drive system, custom gears were designed and m
 
 | Name | Role |
 |--------|--------|
-| Member 1 | ............. |
-| Member 2 | ...............|
-| Member 3 | ..................|
+| Beesan| ............. |
+| Sarah | ...............|
+| Majeed | ..................|
 
 ---
 
