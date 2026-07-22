@@ -127,9 +127,15 @@ To enhance the performance of the drive system, custom gears were designed and m
 - Mechanical components
 
 ### Power System
+- Power Flow Architecture 
+
+ 
+                                                   
 - Battery
-- Voltage regulation
-- Power distribution
+- Master Power Control:Switch Type: Panel-mounted I/O rocker switch integrated along the chassis side frame.Function: Provides physical circuit isolation and emergency system shut-off.DC-DC Step-Down Buck Converter:Monitoring: Integrated 3-digit, 7-segment red LED display for real-time voltage monitoring.
+- Regulation Hardware: Features a toroidal core inductor, input/output electrolytic filter capacitors, an aluminum heat sink, and multi-turn precision potentiometers.
+- Primary Battery Interface:Configuration: Integrated chassis battery tray fitted with high-tension spring terminal contacts.
+
 
 ### Sensor System
 - camera
@@ -144,10 +150,6 @@ To enhance the performance of the drive system, custom gears were designed and m
 
 ---
 
-
-## Development Process
-
-This repository will be continuously updated throughout the development cycle. The commit history reflects the evolution of the project, design decisions, testing activities, and software improvements.
 
 ---
 
