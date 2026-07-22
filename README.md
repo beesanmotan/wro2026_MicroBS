@@ -43,18 +43,18 @@ This section provides a detailed overview of the key hardware components used in
 | Width | ...............|
 | Height| ..................|
 #### 🔧 Components Overview
-##### Raspberry Pi 5
+#### Raspberry Pi 5
 
 The Raspberry Pi 5 is the main controller of our robot. It is responsible for processing sensor data, running the autonomous navigation algorithms, and sending control commands to the motor driver.
 
-### Why We Chose Raspberry Pi 5
+##### Why We Chose Raspberry Pi 5
 
 - High processing power for real-time decision making.
 - Supports Python and computer vision libraries.
 - Easy integration with sensors and external modules.
 - Reliable performance during testing and competition runs.
 
-### Role in the Robot
+##### Role in the Robot
 
 The Raspberry Pi 5 performs the following tasks:
 
@@ -64,7 +64,7 @@ The Raspberry Pi 5 performs the following tasks:
 - Controls the movement of the robot through the motor driver.
 - Manages communication between the different electronic components.
 
-### Integration
+##### Integration
 
 The Raspberry Pi 5 is connected to:
 
@@ -72,6 +72,8 @@ The Raspberry Pi 5 is connected to:
 - Distance sensors
 - Motor driver
 - Power system
+
+  #### 
 
 As the central processing unit of the robot, the Raspberry Pi 5 enables autonomous operation and supports all decision-making processes during the competition.
 
