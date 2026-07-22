@@ -120,17 +120,25 @@ This repository will be continuously updated throughout the development cycle. T
 
 ---
 
-## Photos
+## Robot Photos
 
-Robot photos from all required angles will be added during development:
+### Front View
+![Front View](images/front%20view.jpg)
 
-- Front View
-- Rear View
-- Left Side View
-- Right Side View
-- Top View
-- Bottom View
+### Rear View
+![Rear View](images/back%20view.jpg)
 
+### Left Side View
+![Left Side View](images/left%20side.jpg)
+
+### Right Side View
+![Right Side View](images/right%20side.jpg)
+
+### Top View
+![Top View](images/top%20view.jpg)
+
+### Bottom View
+![Bottom View](images/bottom%20view.jpg)
 ---
 
 ## Videos
