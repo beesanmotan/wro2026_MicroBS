@@ -125,7 +125,7 @@ Module Type: Active Infrared Optical Reflection Sensor (Dual Diode Pair).Operati
 
 
 
-#### Drive mechanism
+### Drive mechanism
 The robot uses a rear-wheel-drive mechanism powered by a single DC motor. Motion is transmitted from the motor to the rear axle through a two-gear transmission system. The two rear wheels are mechanically linked by a metal axle, ensuring that both wheels rotate together and provide consistent propulsion.
 
 To enhance the performance of the drive system, custom gears were designed and manufactured using 3D printing. The larger gears increased the transmission ratio, allowing the robot to generate greater torque at the wheels. This improvement resulted in smoother acceleration, better traction, and more stable movement while navigating the track. Multiple tests were conducted to evaluate different gear configurations, and the final design was selected for its balance between driving power, reliability, and control.
