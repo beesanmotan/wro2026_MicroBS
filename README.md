@@ -128,7 +128,7 @@ To enhance the performance of the drive system, custom gears were designed and m
 
 ### Power System
 - Power Flow Architecture 
-
+![Power distribution](images/batteryDist.png)
  
                                                    
 - Battery
